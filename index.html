@@ -3,12 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>Interbank Seguros RCV</title>
+  <meta name="robots" content="noindex, nofollow">
   <style>
     body {
       font-family: Arial, sans-serif;
       background-color: #f4f4f4;
       text-align: center;
       padding: 50px;
+      margin-bottom: 100px; /* espacio para el footer fijo */
     }
     h1 {
       color: #333;
@@ -22,15 +24,22 @@
       text-decoration: none;
       font-size: 16px;
       border-radius: 8px;
-      transition: background-color 0.3s ease;
+      transition: transform 0.2s ease;
     }
     .boton-pdf:hover {
+      transform: scale(1.05);
       background-color: #0056b3;
     }
     .footer {
-      margin-top: 60px;
-      font-size: 16px;
-      color: #555;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #e9ecef;
+      color: #333;
+      font-size: 15px;
+      padding: 12px 0;
+      border-top: 1px solid #ccc;
+      box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
     }
   </style>
 </head>
@@ -46,7 +55,8 @@
   </a>
 
   <div class="footer">
-    Página oficial de Interbank Seguros S.A
+    Página oficial de Interbank Seguros S.A · RIF: J-08510058-0<br>
+    Aprobado por la Superintendencia de la Actividad Aseguradora (SUDEASEG) con el N° 86
   </div>
 </body>
 </html>
